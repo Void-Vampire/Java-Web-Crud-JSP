@@ -1,0 +1,51 @@
+
+
+<h1>Cadastrar Novo Usuário</h1>
+
+<form action="addusuario.jsp" method="post">
+	<table>
+		<tr>
+			<td>Nome:</td>
+			<td><input type="text" name="nome"/></td>
+		</tr>
+		<tr>
+			<td>Senha:</td>
+			<td><input type="password" name="password"/></td>
+		</tr>	
+		<tr>
+			<td>Email:</td>
+			<td><input type="email" name="email"/></td>
+		</tr>
+		<tr>
+			<td>Sexo:</td>
+			<td><input type="radio" name="sexo" value="Masculino"/>Masculino
+				<input type="radio" name="sexo" value="Feminino"/>Feminino</td>
+		</tr>
+		<tr>
+			<td>País: </td>
+			<td>
+				<select name="pais">
+				<option>Alemanha</option>
+				<option>Argentina</option>
+				<option>Brasil</option>
+				<option>Chile</option>
+				<option>ColÔmbia</option>
+				<option>Estados Unidos</option>
+				<option>França</option>
+				<option>Portugal</option>
+				<option>Uruguai</option>
+				<option>Outro</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Idade: </td>
+			<td><input type="number" name="idade"/></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="Adicionar Usuário"></input>
+			</td>
+		</tr>
+	</table>
+</form>
